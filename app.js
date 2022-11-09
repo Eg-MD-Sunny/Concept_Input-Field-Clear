@@ -9,3 +9,8 @@
 
 // })
 
+function save(){
+    let firstNameInput = document.getElementById('first_name');
+    console.log(firstNameInput.value);
+    firstNameInput.value='';
+}
