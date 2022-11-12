@@ -9,8 +9,8 @@ btn.addEventListener('click', function handlerClick(event){
 
 })
 
-// function save(){
-//     let firstNameInput = document.getElementById('first_name');
-//     console.log(firstNameInput.value);
-//     firstNameInput.value='';
-// }
+function save(){
+    let firstNameInput = document.getElementById('first_name');
+    console.log(firstNameInput.value);
+    firstNameInput.value='';
+}
